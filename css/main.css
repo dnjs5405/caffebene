@@ -1,0 +1,254 @@
+@charset"utf-8";
+
+
+/*메인슬라이더*/
+.mainSlider{
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+}
+.mainSlider img{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+
+/*메인컨텐츠01*/
+.mainCon01{
+    padding: 50px 0;
+    text-align: center;
+    background: #f5f5f5 url(../images/main/bg_bar_div.gif)no-repeat center center;
+}
+.mainCon01>div{
+    padding: 0 30px;
+    width: 350px;
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+}
+.mainCon01 span{
+    display: block;
+}
+
+.mainCon01 .con01Left{padding-left: 100px;}
+.con01Left h2{
+    line-height: 35px;
+    margin-bottom: 30px;
+    color: #711b04;
+    font-size: 30px;
+}
+.con01Left p{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.con01Right{
+    line-height: 25px;
+}
+.con01Right p{
+    font-size: 14px;
+}
+.con01Right span{}
+
+.moreBtn{
+    margin-top: 20px;
+    text-indent: -9999px;
+    height: 40px;
+    width: 40px;
+    background: url(../images/main/btn_more02.png) no-repeat;
+    background-size: 100%; /*가로세로사이즈가 다를 경우는 쓰면 이미지가 늘어남*/
+}
+.moreBtn a{
+    display: block;
+    height: 100%;
+}
+
+
+/*메인컨텐츠02*/
+
+.mainCon02{
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: url(../images/main/visual01.jpg) no-repeat center center;
+    /*background-attachment: fixed; 이미지 깨짐*/
+    background-size: cover;
+}
+.mainCon02 h2{
+    font-size: 30px;
+    background: url(../images/main/tit_line_bot.png) no-repeat center bottom;
+    font-weight: 600;
+    padding-bottom: 15px; /*중요*/
+    margin-bottom: 15px;  /*중요*/
+}
+
+.mainCon02 p{
+    font-weight: 200;
+    font-size: 12px;
+}
+.mainCon02 .con02subTit{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.mainCon02 p span{
+    display: block;
+}
+
+.mainCon02 .moreBtn{
+    margin: 0 auto;
+    background-image: url(../images/main/btn_more.png);
+    margin-top: 50px;
+}
+.mainCon02 .moreBtn a{}
+
+
+/*메인컨텐츠03*/
+
+.mainCon03{
+    padding: 80px 0;
+    text-align: center;
+}
+.con03Tit{}
+.con03Tit h2{
+    color: #711b04;
+}
+.con03Tit p{
+    margin: 20px 0;
+}
+
+.con03Menu{}
+.con03Menu li{
+    margin-bottom: 3px;
+    margin-left: 3px;
+    position: relative;
+    float: left;
+}
+.con03Menu li:first-child{
+    margin: 0;
+}
+.con03Menu li a{}
+.con03Menu li img{
+    display: block;
+}
+
+.menuTit{
+    font-size: 12px;
+    width: 100%;
+    bottom: 20px;
+    position: absolute;
+}
+.menuTit h4{
+    font-size: 16px;
+    color: #7d645a;
+}
+.menuTit p{}
+
+
+/*메인컨텐츠04*/
+
+.mainCon04{
+    padding: 120px 0;
+    background-image: url(../images/main/visual02.jpg);
+}
+.mainCon04 h2{
+    font-size: 30px;
+}
+.con04Subtit{}
+.mainCon04 p{
+    padding: 5px;
+}
+.mainCon04 p span{
+    padding: 2px;
+    display: block;
+}
+.mainCon04 .moreBtn{
+    margin-top: 30px;
+    width: 360px;
+    background-image: url(../images/main/btn_find_store.png);
+}
+
+
+/*메인컨텐츠05*/
+
+.mainCon05{
+    text-align: center;
+    background: #beb4af;
+    color: #fff;
+    padding: 50px 0;
+}
+.mainCon05 span{
+    vertical-align: middle;
+}
+.con05Tit{
+    font-size: 25px;
+    font-weight: bold;
+}
+.con05Txt{
+    font-weight: 200;
+    margin-left: 30px;
+    margin-right: 15px;
+    font-size: 12px;
+}
+.con05Btn{}
+.con05Btn a{}
+.con05Btn img{
+    width: 40px;
+}
+
+
+/*메인컨텐츠06*/
+
+.mainCon06{
+    padding: 50px 0;
+    background: url(../images/main/bg_visual.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.con06List{}
+.con06List li{
+    padding: 0 20px;
+    text-align: center;
+    height: 150px;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+.con06List li h4{
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #7d645a;
+}
+.con06List li h4 img{
+    vertical-align: top; /*vertical-align:middle주고, margin-top:-4px 주면 중간정열 됨.*/
+    width: 20px;
+}
+.con06List li p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

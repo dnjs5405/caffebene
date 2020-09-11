@@ -1,0 +1,168 @@
+@charset"utf-8";
+
+#header{}
+
+.hTop{
+    line-height: 40px;
+    font-size: 14px;
+    background: #282828; 
+}
+.hTop a{
+    display: block;
+    border-left: 1px solid #231f20;
+    padding: 0 30px;
+    color: #fff;
+}
+
+.engBtn{float: left;}
+.engBtn a{
+    border-right: 1px solid #231f20;
+}
+
+.util{float: right;}
+.util li{
+    float: left;
+} 
+.util li:last-child a{
+    padding-right: 0;
+}
+.util li a{} 
+.util li img{
+    margin-left: 5px;
+} 
+
+.hBottom{
+    line-height: 80px;
+}
+.hBottom h1{
+    float: left;
+    text-indent: -9999px;
+    width: 180px;
+    height: 100%;
+    background: url(../images/common/logo.jpg) no-repeat center center;
+    background-size: 100% /*H,W값이 정확히 정해져있어서cover도 괜찮음*/
+}
+.hBottom h1 a{
+    display: block;
+}
+
+.gnb{
+    float: right
+}
+.gnb li{
+    padding-left: 50px;
+    float: left;
+}
+.gnb li a{}
+
+
+
+
+/*푸터*/
+
+#footer{
+    font-size: 12px;
+    color: #8c8c8c;
+    position: relative;
+    background: #1e1e1e;
+}
+
+#footer a{
+    color: #8c8c8c;
+}
+
+.topBtn{
+    position: absolute;
+    top: -39px;
+    width: 102px;
+    height: 39px;
+    left: 50%;
+    margin-left: -51px;
+    background: url(../images/common/btn_go_top.png) no-repeat;
+}
+.topBtn a{
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    padding-left: 27px;
+    padding-top: 12px;
+    font-size: 15px;
+    color: #646464;
+}
+
+.fTop{
+    padding: 50px 0;
+    background: #282828;
+}
+.fTop dl{
+    line-height: 30px;
+    margin-right: 80px;
+    float: left;
+}
+.fTop dt{
+    background: url(../images/common/bar_snb.gif) no-repeat left bottom;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #646464;
+}
+.fTop dd{
+    font-weight: 200;
+}
+.fTop dd a{
+}
+
+.fBottom{
+    position: relative;
+    padding: 50px 0;
+}
+.fLogo{
+    margin-bottom: 20px;
+    width: 180px;
+    height: 30px;
+    background: url(../images/common/logo_foot.gif)no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+}
+
+.fInfo{
+    overflow: hidden;
+}
+.fInfo li{
+    float: left;
+}
+
+.fInfo li::after{
+    content:"";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background: #2d3333;
+    margin: 0  5px;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+.fInfo li:last-child::after{
+    display: none;
+}
+.fInfo li a{}
+
+.copy{
+    margin-top: 20px;
+}
+
+.fSns{
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+.fSns li{
+    margin-left: 5px;
+    float: left;
+}
+.fSns li a{}
+.fSns li img{
+    width: 25px;
+}
